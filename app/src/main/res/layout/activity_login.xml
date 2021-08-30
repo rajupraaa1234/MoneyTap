@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Login.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/col_26DADBDE"
+        android:layout_height="wrap_content">
+
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_marginTop="@dimen/dp25"
+              android:src="@drawable/ic_credite"
+              android:gravity="center"
+              android:layout_gravity="center"
+              android:layout_height="wrap_content"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Credit line (cash)"
+               android:layout_gravity="center"
+               android:textColor="@color/black"
+               android:fontFamily="@font/roboto_bold"
+               android:layout_marginTop="@dimen/dp14"
+               android:textSize="@dimen/sp20"
+               android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginStart="@dimen/dp24"
+            android:layout_marginEnd="@dimen/dp24"
+            android:textSize="@dimen/sp16"
+            android:textColor="@color/col_818181"
+            android:text="@string/get_up_to_5_lakhs_and_24x7_access_to_money_on_your_phone_for_all_your_needs"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp40"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ind1"
+                android:layout_width="@dimen/dp8"
+                android:layout_height="@dimen/dp8"
+                app:srcCompat="@drawable/seleted" />
+
+            <ImageView
+                android:id="@+id/ind2"
+                android:layout_width="@dimen/dp8"
+                android:layout_marginStart="@dimen/dp10"
+                android:layout_height="@dimen/dp8"
+                app:srcCompat="@drawable/unselected" />
+
+            <ImageView
+                android:id="@+id/ind3"
+                android:layout_width="@dimen/dp8"
+                android:layout_height="@dimen/dp8"
+                android:layout_marginStart="@dimen/dp10"
+                app:srcCompat="@drawable/unselected" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dp20"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp24"
+            android:id="@+id/googleBtn"
+            android:layout_marginTop="@dimen/dp22"
+            android:background="@drawable/round_style"
+            android:layout_marginRight="@dimen/dp24"
+            android:layout_height="48dp">
+            <ImageView
+                android:layout_width="@dimen/dp21"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_gsearch"
+                android:layout_height="@dimen/dp21"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/continue_with_gmail"
+                android:textColor="@color/col_555555"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp16"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginTop="@dimen/dp22"
+            android:background="@drawable/round_style"
+            android:layout_marginRight="@dimen/dp24"
+            android:layout_height="48dp">
+            <ImageView
+                android:layout_width="@dimen/dp25"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_facebook"
+                android:layout_height="@dimen/dp25"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/continue_with_facebook"
+                android:textColor="@color/col_555555"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/sp16"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp24"
+            android:layout_marginTop="@dimen/dp22"
+            android:background="@drawable/round_style"
+            android:layout_marginRight="@dimen/dp24"
+            android:layout_height="48dp">
+            <ImageView
+                android:layout_width="@dimen/dp16"
+                android:layout_gravity="center"
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_icons8_number_pad"
+                android:layout_height="@dimen/dp16"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="@string/continue_with_phone"
+                android:textColor="@color/col_555555"
+                android:gravity="center"
+                android:layout_weight="0.6"
+                android:layout_gravity="center"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/sp16"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
